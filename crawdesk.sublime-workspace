@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"min-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6480,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "twitter1.html",
+			"settings":
+			{
+				"buffer_size": 7146,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 7084,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "myCV.html",
+			"settings":
+			{
+				"buffer_size": 6642,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project1.html",
+			"settings":
+			{
+				"buffer_size": 3321,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project2.html",
+			"settings":
+			{
+				"buffer_size": 3319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 663,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/_SITES/CRAWDESK/project1.html",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/project2.html",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/myCV.html",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/twitter1.html",
+		"/C/xampp/htdocs/_SITES/ELECTRON/README.md",
+		"/C/xampp/htdocs/_SITES/ELECTRON/project2.html",
+		"/C/xampp/htdocs/_SITES/ELECTRON/project1.html",
+		"/C/xampp/htdocs/_SITES/ELECTRON/index.html",
+		"/C/xampp/htdocs/_SITES/PROTON/index.php",
+		"/C/xampp/htdocs/_SITES/ORCS/index.html",
+		"/C/xampp/htdocs/_SITES/ORCS/index.php",
+		"/C/xampp/htdocs/_SITES/NEUTRON/index.php",
+		"/Z/Dropbox/__COURSES/032_WebDevelopment_WebAPIs/05_XXX_2013Feb_IWA2/01_intro/bootstrapExample/index.html",
+		"/Z/Dropbox/__COURSES/032_WebDevelopment_WebAPIs/05_XXX_2013Feb_IWA2/01_intro/bootstrapExample/css/styles.css",
+		"/Z/Dropbox/__COURSES/032_WebDevelopment_WebAPIs/05_XXX_2013Feb_IWA2/01_intro/bootstrap_v2-3-0/bootstrap/index.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3937,
+								3937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1469.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "twitter1.html",
+					"settings":
+					{
+						"buffer_size": 7146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4318,
+								4318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1608.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles.css",
+					"settings":
+					{
+						"buffer_size": 7084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1677,
+								1677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1434.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "myCV.html",
+					"settings":
+					{
+						"buffer_size": 6642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "project1.html",
+					"settings":
+					{
+						"buffer_size": 3321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "project2.html",
+					"settings":
+					{
+						"buffer_size": 3319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/_SITES/PROTON/PROTRON.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}
