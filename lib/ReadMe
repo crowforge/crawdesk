@@ -1,0 +1,8 @@
+You need to download the tmhOAuth library from GITHUB
+for the code to work if git is installed you can use the following
+
+git clone https://github.com/themattharris/tmhOAuth.git
+
+If not the goto https://github.com/themattharris, go into the tmhoAuth repository
+and use the zip button to download the library. Then place all the files in
+the tmhOAuth-XXX directory
