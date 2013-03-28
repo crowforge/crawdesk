@@ -19,7 +19,9 @@ This project forms the basis for exploring the API during lectures and LABS
 To get this code to work you must do the following
 
 a) create your own Twitter application and get the application and user keys
+
 b) enter these keys into the /app/inc/   file
+
 c) download the libraries mentioned in the /lib/ReadMe
 
 
