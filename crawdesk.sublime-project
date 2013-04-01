@@ -4,5 +4,9 @@
 		{
 			"path": "/C/xampp/htdocs/_SITES/CRAWDESK"
 		}
-	]
+	],
+
+    "settings": {
+        "xdebug": { "url": "http://localhost/_SITES/CRAWDESK/index.html" }
+    }
 }

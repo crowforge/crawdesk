@@ -118,7 +118,7 @@ include (APPLICATION_PATH . "/inc/config.inc.php");
                     placeholder="Your tweet, 140 characters only"></textarea>  
                 </div>  
             </div>  
-            <div class="form-actions">  
+            <div class="form-actions twitter">  
                 <input type="hidden" name="submitTweets" value="tweetSent">  
                 <button type="submit" name="submitButton" class="btn btn-primary">Send</button>  
             </div>  
