@@ -21,7 +21,7 @@ define("TEMPLATE_PATH", APPLICATION_PATH . "/view");
 define("LIBRARY_PATH", "lib");
 
 //for menu item highlighting
-$activeBasicPage = "active";
+$activeProject3 = "active";
 
 /*
  * Pull in the configuration files
@@ -44,8 +44,10 @@ include (APPLICATION_PATH . "/inc/config.inc.php");
 
 include (TEMPLATE_PATH . "/public/header.php");
 
-
 ?>
+
+<div class="wrapper">
+<!-- the wrapper is above the containers to push down the footer -->
 
 <!-- main page content ................................. -->
 
@@ -54,10 +56,15 @@ include (TEMPLATE_PATH . "/public/header.php");
  * Pull in the public version of the main
  * page of the content
  */
-include (TEMPLATE_PATH . "/public/basicPage.inc.php");
+include (TEMPLATE_PATH . "/public/project3.inc.php");
 ?>
 
+
 <!-- main page  end .................................... -->
+
+<!-- keep this at the bottom to push down the footer-->
+<div class="push"><!--//--></div>
+</div><!-- .wrapper -->
 
 <?php
 /*

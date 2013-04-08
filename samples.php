@@ -20,14 +20,8 @@ define("APPLICATION_PATH", "app");
 define("TEMPLATE_PATH", APPLICATION_PATH . "/view");
 define("LIBRARY_PATH", "lib");
 
-/*
- * Pull in the header component of the HTML page
- * This header is used for all pages that do not
- * require a login e.g. publically accessible pages
- * Contains <HTML><HEADER></HEADER><BODY> and menu ..
- */
-
-include (TEMPLATE_PATH . "/public/header.php");
+//for menu item highlighting
+$activeSamples = "active";
 
 /*
  * Pull in the configuration files
@@ -41,6 +35,15 @@ include (APPLICATION_PATH . "/inc/config.inc.php");
 //include (APPLICATION_PATH . "/inc/db.inc.php");
 //include (APPLICATION_PATH . "/inc/functions.inc.php");
 
+/*
+ * Pull in the header component of the HTML page
+ * This header is used for all pages that do not
+ * require a login e.g. publically accessible pages
+ * Contains <HTML><HEADER></HEADER><BODY> and menu ..
+ */
+
+include (TEMPLATE_PATH . "/public/header.php");
+
 ?>
 
 <!-- main page content ................................. -->
@@ -50,7 +53,7 @@ include (APPLICATION_PATH . "/inc/config.inc.php");
 <!--  button -->
 <div class="container buttonbar">
 <p align="right">
-  <a href="index.html" class="btn btn-success btn-large">
+  <a href="index.php" class="btn btn-success btn-large">
   	<i class="icon-white icon-arrow-left"></i>  Back to Twitter Home</a>
 </p>
 </div>
@@ -156,6 +159,7 @@ define(’USERNAME’, ’xxx’);
 define(’PASSWORD’, ’xxx’)
 </pre>
 
+<hr class="pictureRule">
 <h3><b>Dates</b></h3>
 <?php echo 'Current timezone: ' . date_default_timezone_get() . '<br />' ?>
 <br/>
@@ -188,6 +192,88 @@ echo date(‘h:i a’) . ‘<br />’;
 <p> see <a href="php.net/manual/en/datetime.formats.php.">www.php.net/manual/en/datetime.formats.php.</a></p>
 <p> see <a href="php.net/manual/en/ref.datetime.php">php.net/manual/en/ref.datetime.php</a></p>
 
+<hr class="pictureRule">
+<p><strong>A FOR Loop</strong>
+<p><small>ref: CodeAcademy PHP course</small></p>
+<pre>
+      for ($number = 1; $number <= 10; $number++)
+      {
+        if ($number <= 9) 
+        {
+            echo $number . ", ";
+        } 
+        else 
+        {
+            echo $number . "!";
+        }
+      };
+</pre>
+<p><strong>The list:</strong>
+  <?php
+  for ($number = 1; $number <= 10; $number++) {
+    if ($number <= 9) {
+        echo $number . ", ";
+    } else {
+        echo $number . "!";
+    }
+  }; ?>
+</p>
+
+<hr class="pictureRule">
+<p><strong>Array and foreach iterator</strong>
+<p><small>ref: CodeAcademy PHP course</small></p>
+<pre>
+	$things = array("Talk to databases",
+    "Send cookies", "Evaluate form data",
+    "Build dynamic webpages");
+    foreach ($things as $thing) 
+    {
+        echo "&lt;li>$thing&lt;/li>";
+    }
+    
+    unset($thing);
+</pre>
+<p><strong>list out the array items:</strong>
+  <?php
+    $things = array("Talk to databases",
+    "Send cookies", "Evaluate form data",
+    "Build dynamic webpages");
+    foreach ($things as $thing) {
+        echo "<li>$thing</li>";
+    }
+    
+    unset($thing);
+  ?>
+
+<hr class="pictureRule">
+<p><strong>Jumble the array items then list them</strong>
+<p><small>ref: CodeAcademy PHP course</small></p>
+<pre>
+    $words = array("the ", "quick ", "brown ", "fox ",
+    "jumped ", "over ", "the ", "lazy ", "dog ");
+    shuffle($words);
+    foreach ($words as $word) {
+        echo $word;
+    };
+    
+    unset($word);
+</pre>
+
+<p><strong>Jumble the sentence with each display<strong></p>
+<p>
+  <?php
+    $words = array("the ", "quick ", "brown ", "fox ",
+    "jumped ", "over ", "the ", "lazy ", "dog ");
+    shuffle($words);
+    foreach ($words as $word) {
+        echo $word;
+    };
+    
+    unset($word);
+  ?>
+
+
+<hr class="pictureRule">
 <h2>Global Functions $_GET, $_POST, $_REQUEST</h2>
 <p>The $_GET function stores values from a form sent with the method=”get” or or paramerers that
 are sent to a page via the URL</p>

@@ -20,9 +20,9 @@ defined('MY_INC_CODE') or die('Access to this file is restricted');
  * Database specific variables
  */
 define("DB_HOST", "localhost");
-define("DB_USER", "");
-define("DB_PASSWORD", "");
-define("DB_DATABASE", "");
+define("DB_USER", "root");
+define("DB_PASSWORD", "n0tabadpa22w0rd");
+define("DB_DATABASE", "crawdesk");
 
 /*
  * Application specific variables
@@ -30,6 +30,6 @@ define("DB_DATABASE", "");
  */
 
 define("VERSION_NUMBER", "1.0");
-define("COMPANY_NAME", "ORCS");
-define("APPLICATION_NAME", "PROTON WEBAPI EXAMPLES");
+define("COMPANY_NAME", "CROWFORGE");
+define("APPLICATION_NAME", "WEBAPI EXAMPLES");
 define("UPLOAD_PATH",  realpath(dirname(__FILE__)) . "/uploads/");

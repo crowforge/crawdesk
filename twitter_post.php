@@ -26,15 +26,6 @@ define("TEMPLATE_PATH", APPLICATION_PATH . "/view");
 define("LIBRARY_PATH", "lib");
 
 /*
- * Pull in the header component of the HTML page
- * This header is used for all pages that do not
- * require a login e.g. publically accessible pages
- * Contains <HTML><HEADER></HEADER><BODY> and menu ..
- */
-
-include (TEMPLATE_PATH . "/public/header.php");
-
-/*
  * Pull in the configuration files
  * As these files are inside php tags their data
  * is not written within the presented HTML page
@@ -45,6 +36,15 @@ include (TEMPLATE_PATH . "/public/header.php");
 include (APPLICATION_PATH . "/inc/config.inc.php");
 //include (APPLICATION_PATH . "/inc/db.inc.php");
 //include (APPLICATION_PATH . "/inc/functions.inc.php");
+
+/*
+ * Pull in the header component of the HTML page
+ * This header is used for all pages that do not
+ * require a login e.g. publically accessible pages
+ * Contains <HTML><HEADER></HEADER><BODY> and menu ..
+ */
+
+include (TEMPLATE_PATH . "/public/header.php");
 
 ?>
 

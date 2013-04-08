@@ -9,7 +9,7 @@
 html, body 
 {
   background: url("../img/paper.jpg") repeat scroll 0 0 #D8DCCE;
-  padding-top: 20px;
+  padding-top: 30px;
   height: 100%;
   font-size: 16px;
   font-family: 'American Typewriter',Georgia,sans-serif;
@@ -281,6 +281,49 @@ img
     padding-top: 10px;
     padding-bottom: 10px;
     background-color:#33ccff;
+}
+
+/* 
+--------------------------------------------------
+ horizontal rule
+-------------------------------------------------- */
+
+.colourRule 
+{
+    background-color:#4094C1;
+    color:#4094C1;
+    height:1px;
+    border:none;
+    /*
+    Border Styles that can be used
+     border-style: dotted; 
+     border-style: dashed; 
+     border-style: solid; 
+     border-style: double; 
+     border-style: groove; 
+     border-style: ridge; 
+     border-style: inset; 
+     border-style: outset; 
+    Can also use an image
+     background: #fff url(../img/imagetoUse.gif) no-repeat scroll center;
+    */
+}
+
+.pictureRule 
+{
+  /*
+  Ref: http://www.smashingmagazine.com/2008/09/09/the-hr-contest-results-download-your-fresh-hr-line-now/
+  Ref: http://blog.neatlysliced.com/2008/03/hr-image-replacement/
+
+  background:url(../img/hr-Nathan-Kelly0001.png) no-repeat scroll center;
+  */
+
+  border:none;
+  height:30px;
+  background:url(../img/scroll.gif) no-repeat scroll center;
+
+  /* width: 150px, height: auto to retain aspect ratio */
+  background-size: 400px Auto;
 }
 
 /* 

@@ -29,15 +29,6 @@ define("TEMPLATE_PATH", APPLICATION_PATH . "/view");
 define("LIBRARY_PATH", "lib");
 
 /*
- * Pull in the header component of the HTML page
- * This header is used for all pages that do not
- * require a login e.g. publically accessible pages
- * Contains <HTML><HEADER></HEADER><BODY> and menu ..
- */
-
-include (TEMPLATE_PATH . "/public/header.php");
-
-/*
  * Pull in the configuration files
  * As these files are inside php tags their data
  * is not written within the presented HTML page
@@ -49,6 +40,15 @@ include (APPLICATION_PATH . "/inc/config.inc.php");
 //include (APPLICATION_PATH . "/inc/db.inc.php");
 //include (APPLICATION_PATH . "/inc/functions.inc.php");
 
+/*
+ * Pull in the header component of the HTML page
+ * This header is used for all pages that do not
+ * require a login e.g. publically accessible pages
+ * Contains <HTML><HEADER></HEADER><BODY> and menu ..
+ */
+
+include (TEMPLATE_PATH . "/public/header.php");
+
 ?>
 
 <!-- THE BODY SHOULD REALLY BE IN ITS OWN FILE UNDER app/view/public -->
@@ -58,7 +58,7 @@ include (APPLICATION_PATH . "/inc/config.inc.php");
 <!--  button -->
 <div class="container buttonbar">
 <p align="right">
-  <a href="index.html" class="btn btn-success btn-large">
+  <a href="index.php" class="btn btn-success btn-large">
   	<i class="icon-white icon-arrow-left"></i>  Back to Twitter Home</a>
 </p>
 </div>
