@@ -14,6 +14,14 @@ The course will cover:
 
 This project forms the basis for exploring the API during lectures and LABS
 
+The project is taught based on the branches
+
+- master (starting point)
+- develop (will eventually merge back to here)
+- v1_TwitterButtons
+- v2_TwitterPHP
+- v3_Login
+- v4_FacebookLogin
 
 ## Licence ##
 
