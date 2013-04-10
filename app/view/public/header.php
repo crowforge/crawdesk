@@ -36,5 +36,3 @@
         <!-- pull in the menu-->
         <?php
           include "menu.html";
-        ?>
-        <!-- pulled into the top of a page, body appended on after this by php -->

@@ -29,9 +29,10 @@ defined('MY_INC_CODE') or die('Access to this file is restricted');
 <div class="row">
 <div class="span6 twitter">
 	
+	<p> Login using a database </p>
 	<br/>
 	<!--  <form class="form-horizontal" action="testSubmits.php" method="POST"> --> 
-	<form class="form-horizontal" action="checklogin.php" method="POST"> 
+	<form class="form-horizontal" action="login_database.php" method="POST"> 
 	    
 	    <div class="control-group">
 	    	<label class="control-label" for="username">Username:</label> 

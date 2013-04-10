@@ -77,6 +77,26 @@ include (TEMPLATE_PATH . "/public/header.php");
 
 <!-- main page content ................................. -->
 
+<!--  button -->
+<div class="container buttonbar">
+<p align="left">
+
+  <!--
+  <a href="login_facebookv2.php">
+    <img class="can" src="img/fb-connect.png" 
+         alt="facebook-login" width="160" height="26">
+  </a>
+    -->
+  
+  <a href="login_facebook.php" 
+     class="btn btn-success btn-large">Login using Facebook</a>
+
+  <a href="login_twitter.php" 
+     class="btn btn-success btn-large">Login using Twitter</a>
+
+</p>
+</div>
+
 <?php
 /*
  * Pull in the public version of the main
@@ -103,8 +123,10 @@ include (TEMPLATE_PATH . "/public/home.inc.php");
                 {echo '<p>Invalid username or password</p>';}
             elseif($loginStatus == 'efail')
                 {echo '<p>No username or password</p>';}
+            elseif($loginStatus == 'CSRFfail')
+                {echo '<p>The Facebook state does not match. You may be a victim of CSRF.</p>';}
             else
-                {echo '';}
+                {echo '<p>' . $loginStatus . '</p>';}
         }
     ?>
 

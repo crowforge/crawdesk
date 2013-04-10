@@ -1,5 +1,17 @@
 ## Build Notes
 
+BUILD 4
+===============
+
+- facebook buttons
+- facebook login functionality
+- login with twitter
+
+__REF__
+https://developers.facebook.com/docs/howtos/login/server-side-login/
+http://net.tutsplus.com/tutorials/php/how-to-authenticate-users-with-twitter-oauth/
+
+
 BUILD 3
 ===============
 

@@ -19,5 +19,3 @@ $consumer_key = 'Ir5wFcfi84Iz7fcJak7IKA';
 $consumer_secret = 'mbSSYQxxCCNdSMSHkAuQH5IvCACv472HCe9yM5r1Ec';
 $user_token = '1241270870-wE3H6kq6CwDVgK3ASa7U0tBLIEw9N3JT6Rz8Ce0';
 $user_secret = 'LYDcHmqkoWwVC6UESsRGvfTIhLpOZKTjA9SMgDE';
-
-?>
