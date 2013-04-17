@@ -8,6 +8,6 @@
  *
  * *************************************** */
 
-$app_id 	= "557248730973135";
-$app_secret = "e078b318ad741d3d3a31dc80bf24549a";
+$app_id 	= "";
+$app_secret = "";
 $my_url 	= "http://localhost/_SITES/crawdesk/login_facebook.php";
