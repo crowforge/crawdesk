@@ -8,4 +8,4 @@
  *
  * *************************************** */
 
-$map_app_key 	= "AIzaSyCe2DEDUJUDytVBoeQ4XLEKgtPERGYXmUA";
+$map_app_key 	= "";
