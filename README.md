@@ -22,6 +22,18 @@ The project is taught based on the branches
 - v2_TwitterPHP
 - v3_Login
 - v4_FacebookLogin
+- v5_moreSocial
+
+## To get this code working you will need to do the following
+
+- Create your own application on twitter and get your own app and user access codes
+- Put your codes into the  app/inc/app_tokens_twitter.inc.php file
+- Download the library by Matt Harris https://github.com/themattharris/tmhOAuth
+- Place the 6 library files in CRAWDESK/lib/tmhOAuth_v0.7.5 directory
+- If you see a curl() error it means you need to update your php.ini to include the curl extention
+- On WAMP there are potentially other issues with curl() that require a new curl.dll to be downloaded see forums: http://forum.wampserver.com/read.php?2,85716,112949#msg-112949
+or go to www.anindya.com,  download php_curl-5.4.3-VC9-x64.zip, under "Fixed curl extensions" and replace the php_curl.dll in WAMP ext folder.
+
 
 ## Licence ##
 
@@ -33,6 +45,9 @@ http://creativecommons.org/licenses/by/3.0/
 
 - Free for use in both personal and commercial projects.
 - Attribution requires leaving author name, author homepage link, and the license info intact.
+
+
+ 
 
 
  
