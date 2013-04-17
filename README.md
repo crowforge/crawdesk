@@ -22,6 +22,7 @@ The project is taught based on the branches
 - v2_TwitterPHP
 - v3_Login
 - v4_FacebookLogin
+- v5_moreSocial
 
 ## To get this code working you will need to do the following
 
