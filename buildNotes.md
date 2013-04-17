@@ -1,11 +1,25 @@
 ## Build Notes
 
+BUILD 5
+===============
+
+- login with twitter
+- google buttons and maps
+
+
+__BUG \ ISSUE__
+
+- in WAMP the menu.html file is causing issues as the variables used
+to highlight the menu iten the page is on are not declared, so WAMP throws errors
+
+- The google map renders to a fixed size as defined in styles.css to the
+map_canvas ID, this should be responsive
+
 BUILD 4
 ===============
 
 - facebook buttons
 - facebook login functionality
-- login with twitter
 
 __REF__
 https://developers.facebook.com/docs/howtos/login/server-side-login/

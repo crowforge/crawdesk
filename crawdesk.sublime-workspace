@@ -12,18 +12,34 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "login_twitter.php",
 			"settings":
 			{
-				"buffer_size": 3636,
+				"buffer_size": 549,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "login_facebook.php",
+			"file": "login_google.php",
 			"settings":
 			{
-				"buffer_size": 2435,
+				"buffer_size": 462,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 3729,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "privateHomeTestCard.php",
+			"settings":
+			{
+				"buffer_size": 2165,
 				"line_ending": "Windows"
 			}
 		}
@@ -64,13 +80,22 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/_SITES/CRAWDESK/login_facebook.php",
-		"/C/xampp/htdocs/_SITES/CRAWDESK/login_facebookv2",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/GoogleBasicPage.inc.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/app_tokens_google.inc.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/header_google.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/google_basic.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/css/styles.css",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/buildNotes.md",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/menu.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/header.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/private/menu_afterLogin.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/private/header.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/basicPage.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/login_facebook.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/index.php",
+		"/C/xampp/htdocs/_SITES/CRAWDESK/login_facebookv2",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/header_min.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/app_tokens_facebook.inc.php",
-		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/header.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/session.inc.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/app_tokens_twitter.inc.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/public/home.inc.php",
@@ -79,18 +104,15 @@
 		"/C/xampp/htdocs/_SITES/CRAWDESK/checkLogin.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/logout.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/privateHomeTestCard.php",
-		"/C/xampp/htdocs/_SITES/CRAWDESK/css/styles.css",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/functions.inc.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/private/menu_afterLogin.html",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/private/footer.html",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/db.inc.php",
-		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/private/header.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/db/dbsetup_script.sql",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/inc/config.inc.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/app/view/private/menu.html",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/samples.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/testSubmits.php",
-		"/C/xampp/htdocs/_SITES/CRAWDESK/basicPage.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/twitter_post.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/twitter_postForm.php",
 		"/C/xampp/htdocs/_SITES/CRAWDESK/twitter_postFormAJAX.php",
@@ -168,23 +190,77 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "login_twitter.php",
 					"settings":
 					{
-						"buffer_size": 3636,
+						"buffer_size": 549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2436,
-								2436
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login_google.php",
+					"settings":
+					{
+						"buffer_size": 462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 3729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2536,
+								2536
 							]
 						],
 						"settings":
@@ -278,29 +354,29 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1374.0,
+						"translation.y": 1443.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "login_facebook.php",
+					"buffer": 3,
+					"file": "privateHomeTestCard.php",
 					"settings":
 					{
-						"buffer_size": 2435,
+						"buffer_size": 2165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								641,
-								641
+								1928,
+								1928
 							]
 						],
 						"settings":
@@ -393,12 +469,10 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 533.0,
+						"translation.y": 744.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -10,7 +10,7 @@
       <a class="brand" href="index.php">CRAWDESK</a>
       <div class="nav-collapse">
         <ul class="nav">
-          <li class="<?php echo $activeIndex ?>"><a href="index.php">Home</a></li>
+          <li <?php if ( isset($activeIndex   ) ) { echo 'class="' + $activeIndex    + '"'; } ?> ><a href="index.php">Home</a></li>
           <li><a href="logout.php">Logout</a></li>
         </ul>
       </div><!--/.nav-collapse -->

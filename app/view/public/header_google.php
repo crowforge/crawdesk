@@ -29,12 +29,52 @@
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
 
+            <!-- GOOGLE MAPS -->
+
+            <?php 
+
+                if ( isset($map_app_key) ) 
+                { 
+                    echo '<script type="text/javascript"
+                            src="http://maps.googleapis.com/maps/api/js?key='. $map_app_key
+                            .'&sensor=false"></script>';
+                }
+            ?>
+
+            <script type="text/javascript">
+
+            function initialize() {
+
+                var mapOptions = {
+                  center: new google.maps.LatLng(-34.397, 150.644),
+                  zoom: 8,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+
+                var map = new google.maps.Map(document.getElementById("map_canvas"),
+                    mapOptions);
+
+            }
+
+            </script>
+
+            <!-- <script type="text/javascript">
+            // Async load
+
+            function loadScript() {
+                  var script = document.createElement("script");
+                  script.type = "text/javascript";
+                  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCe2DEDUJUDytVBoeQ4XLEKgtPERGYXmUA&sensor=TRUE_OR_FALSE&callback=initialize";
+                  document.body.appendChild(script);
+            }
+
+            </script> -->
+
+
         </head>
 
-        <body>
+        <body onload="initialize()">
 
         <!-- pull in the menu-->
         <?php
-          include "menu_afterLogin.php";
-        ?>
-        <!-- pulled into the top of a page, body appended on after this by php -->
+          include "menu.php";

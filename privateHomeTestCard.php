@@ -21,6 +21,15 @@ include (TEMPLATE_PATH . "/private/header.php");
 
 <!-- main page content ................................. -->
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=557248730973135";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="wrapper">
 <!-- main page content -->
 
@@ -34,6 +43,27 @@ include (TEMPLATE_PATH . "/private/header.php");
 	<div class="row">
 		<div class="span12">
 		<p>Private Stuff ...</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+		<p>Like for digital skills academy</p>
+		<div class="fb-like" data-href="http://www.digitalskillsacademy.com/" 
+		data-send="true" data-layout="button_count" 
+		data-width="450" data-show-faces="true" data-font="lucida grande"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+		<p>Comments on : <a 
+			href="http://www.insidefacebook.com/2013/01/01/top-25-facebook-pages-january-2013/">
+			http://www.insidefacebook.com/2013/01/01/top-25-facebook-pages-january-2013/</a></p>
+	<div class="fb-comments" 
+	data-href="http://www.insidefacebook.com/2013/01/01/top-25-facebook-pages-january-2013/" 
+	data-width="470" data-num-posts="10"></div>
+		<br/>
 		</div>
 	</div>
  

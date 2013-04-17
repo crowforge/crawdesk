@@ -35,4 +35,4 @@
 
         <!-- pull in the menu-->
         <?php
-          include "menu.html";
+          include "menu.php";

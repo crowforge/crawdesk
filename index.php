@@ -94,6 +94,9 @@ include (TEMPLATE_PATH . "/public/header.php");
   <a href="login_twitter.php" 
      class="btn btn-success btn-large">Login using Twitter</a>
 
+  <a href="login_google.php" 
+     class="btn btn-success btn-large">Login using Google</a>
+
 </p>
 </div>
 
